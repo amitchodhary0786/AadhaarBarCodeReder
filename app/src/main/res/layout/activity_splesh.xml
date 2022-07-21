@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="11">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9.5"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:id="@+id/logo"
+                android:src="@drawable/setyamavjeyete" />
+            <TextView
+                android:id="@+id/tv_main2text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Government of Rajasthan"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+
+            <TextView
+                android:id="@+id/tv_maintext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aadhaar QR Reder"
+                android:gravity="center"
+                android:padding="8dp"
+                style="@style/TextAppearance.AppCompat.Large.Inverse"
+                android:textColor="@color/white"
+                android:background="@color/purple_500"
+                android:layout_marginTop="50dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:background="#07111d"
+            android:layout_marginTop="15dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="vertical"
+                android:background="#07111d"
+                android:layout_gravity="center|start">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:orientation="vertical"
+                android:background="#07111d"
+                android:layout_gravity="center|start">
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
